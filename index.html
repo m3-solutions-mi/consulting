@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <link id="favicon" rel="icon" href="./favicon.ico" type="image/png" sizes="16x16">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -55,7 +55,7 @@
                                             &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;m3-solutions-mi.github.io/consulting
                             </div></div></h1>
 
-                            <h3 class="w3-left"><b>Ryan De Jong</b><br /><span
+                            <h3 class="w3-left"><b>Ryan De Jong&nbsp;&nbsp;&nbsp;</b><br /><span
                                     class="w3-hide-small w3-hide-medium">Proprietor | Developer | Consultant</span></h3>
                             <h3 class="w3-right w3-hide-small w3-hide-medium"><b>(248)
                                     667-8871</b><br />
@@ -597,10 +597,13 @@
     <script>
         const template = `<span class="w3-tag w3-green w3-round w3-padding _w3-margin" style="margin-bottom:5px;">{0}</span>`
         let html = '';
+        //* Sealed Power,Hi-Lex,Inalfa Roof Systems,
         `Cummins Global,Honda,GM - Pontiac GPS, GM Milford Proving Grounds,A123,GM - Warren Battery Lab, GM - Italy,
-        Toyota,Ferrari,Pilot Automotive,Rivian,Ford,Detroit Diesel,Borg Warner,
+        Toyota,Ferrari,Pilot Automotive,Rivian,Ford,Detroit Diesel,TUV,Borg Warner,
         Stellantis,Volkswagon,Power Co,Catepillar,John Deere,Rouche Racing,Penske Racing,Toyota Racing,
-        Mack Truck, Volvo Truck, California ARB,Johnson Mathey,Perkins UK,Meritor,. . .`.split(',').forEach((v) => {
+        Mack Truck, Volvo Truck, California ARB,Johnson Mathey,Perkins UK,Meritor,
+        Aramco,Chrysler,Nissan,LG,Peterbilt,Intertek,
+        . . .`.split(',').forEach((v) => {
             html += template.replace('{0}', v) + '\n';
         })
         document.getElementById('customers').innerHTML = html;
